@@ -1,3 +1,5 @@
+#encoding: utf-8
+
 class Object
   def meta_def name, &blk
     (class << self; self; end).instance_eval do
